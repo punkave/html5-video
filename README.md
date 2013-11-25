@@ -15,3 +15,12 @@ html5Video('myfile.mp4', function(err, result) {
   // result.jpg
 });
 ```
+
+To run the tests you need to install mocha:
+
+npm install -g mocha
+
+Then you can do:
+
+cd tests
+mocha test
